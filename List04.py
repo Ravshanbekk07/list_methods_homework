@@ -7,4 +7,9 @@ def main(numbers,i):
     Returns:
         list: return answer
     """
-    return
+    numbers.remove(i)
+
+    return numbers[3]
+
+v = main([4,7,3,2,8],4)
+print(v)
